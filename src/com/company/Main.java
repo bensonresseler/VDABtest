@@ -12,6 +12,7 @@ public class Main {
             String naam = scanner.nextLine();
             System.out.println(String.format("Naam: %10s", naam));
             System.out.println("Test");
+            System.out.println("Test2");
         }
 
     }
