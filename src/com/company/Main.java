@@ -11,6 +11,7 @@ public class Main {
             System.out.print("Geef een naam: ");
             String naam = scanner.nextLine();
             System.out.println(String.format("Naam: %10s", naam));
+            System.out.println("Test");
         }
 
     }
