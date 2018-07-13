@@ -13,7 +13,7 @@ public class Palindroom {
         for (int i = woord.length() -1; i >=0; i--) {
             anderWoord = anderWoord + woord.charAt(i);
         }
-        if (woord.compareTo(anderWoord) == 0) {
+        if (woord.equals(anderWoord)) {
             System.out.println(woord + " is een palindroom");
         }else {
             System.out.println(woord + " is geen palindroom");
